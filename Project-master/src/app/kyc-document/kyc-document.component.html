@@ -1,0 +1,104 @@
+<div class="call1">
+    <div class="create">
+        <div class="row" id="tab3_sec1">
+            <div class="col-md-3">
+                <img src="assets/Images/kycDocument.png" title="" alt="Cashless treatment in healthcare Industry">
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8 mx auto">
+                <h3 style="margin-left: 28px;
+                margin-top: 50px; font-weight:700">Document</h3>
+                <br>
+                <br>
+                <form [formGroup]="formGroup">
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class=" col-md-6 mx-auto">
+                            <label class="control-label " style="font-size: 100%;">GST Number</label>
+
+                            <input type="text" style="border-radius: 10px;  height: 40px;" formControlName="GSTDocument"
+                                placeholder="GST Number" class="form-control" id="phoneNo" />
+                        </div>
+                        <div class=" col-md-6 mx-auto">
+
+                            <div class="form-group">
+                              <!--  <input type="file" id="file" accept="Document/*">
+                                <label class="control-label " style="font-size: 80%; margin-top: 10px;"for="file">
+              <i   class="fa fa-camera" aria-hidden="true"></i>
+                 Upload Document Image</label>-->
+          </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class=" col-md-6 mx-auto">
+                            <label class="control-label " style="font-size: 100%;">Pan Card Number</label>
+
+                          <input type="text" style="border-radius: 10px;  height: 40px;"
+                                formControlName="PanCardNumber" placeholder="Pan Card Number" class="form-control"
+                                id="phoneNo" />
+                        </div>
+                        <div class=" col-md-6 mx-auto">
+
+                             <div class="form-group">
+                             <!--  <input type="file" id="file" accept="Document/*">
+                                <label class="control-label " style="font-size: 80%; margin-top: 10px;"for="file">
+              <i   class="fa fa-camera" aria-hidden="true"></i>
+                 Upload Document Image</label>--> 
+          </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class=" col-md-6 mx-auto">
+                            <label class="control-label " style="font-size: 100%;">Aadhar Card Number</label>
+
+                            <input type="number" style="border-radius: 10px;  height: 40px;"
+                                formControlName="AadharCardNumber" placeholder="Aadhar Card Number" class="form-control"
+                                id="phoneNo" />
+                        </div>
+                        <div class=" col-md-6 mx-auto">
+                           
+                            <div class="form-group">
+                              <!--  <input type="file" id="file" accept="Document/*">
+                                <label class="control-label " style="font-size: 80%; margin-top: 10px;"for="file">
+              <i   class="fa fa-camera" aria-hidden="true"></i>
+                 Aadhar Card Front Image</label>-->
+          </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class=" col-md-6 mx-auto">
+                        </div>
+                        <div class=" col-md-6 mx-auto">
+                             
+                            <div class="form-group">
+                               <!-- <input type="file" id="file" accept="Document/*">
+                                <label class="control-label " style="font-size: 80%; margin-top: 10px;"for="file">
+              <i   class="fa fa-camera" aria-hidden="true"></i>
+                 Aadhar Card Back Image</label>-->
+          </div>
+                        </div>
+
+                    </div>
+                    <br>
+                </form>
+
+                <br>
+
+                <button class="btn" (click)="back()">Back</button>
+
+                <button class="btn" (click)="next (formGroup.value)">sumbit<i class="fas fa-arrow-right"
+                        style="text-align: right;"></i></button>
+
+                <br>
+                <br>
+            </div>
+
+        </div>
+    </div>
+</div>

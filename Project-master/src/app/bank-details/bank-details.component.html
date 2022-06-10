@@ -1,0 +1,66 @@
+<div class="call1">
+    <div class="create">
+        <div class="row" id="tab3_sec1">
+            <div class="col-md-3">
+                <img src="assets/Images/BankAccount.png" title="" alt="Cashless treatment in healthcare Industry">
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+                <h3 style="margin-left: 28px;
+                margin-top: 50px; font-weight:700">Bank Account Details</h3>
+                <br>
+                <br>
+                <form [formGroup]="formGroup">
+                    <div class=" col-md-12 row topBottomMargin">
+
+                        <div class=" col-md-6">
+                            <label class="control-label required " style="font-size: 90%;">Beneficiary Name</label>
+
+                            <input type="text" style="border-radius: 10px;  height: 50px;"
+                                formControlName="BeneficiaryName" placeholder="Beneficiary Name" class="form-control"
+                                id="phoneNo" />
+                        </div>
+
+                        <div class=" col-md-6">
+                            <label class="control-label required " style="font-size: 90%;">IFSC Code</label>
+
+                            <input type="text" style="border-radius: 10px;  height: 50px;" formControlName="IFSCCode"
+                                placeholder="IFSC Code " class="form-control" id="phoneNo" />
+                        </div>
+
+                    </div>
+
+                    <br>
+                    <div class=" col-md-12 row topBottomMargin">
+
+                        <div class=" col-md-6">
+                            <label class="control-label required " style="font-size: 90%;">Account Number</label>
+
+                            <input type="number" style="border-radius: 10px;  height: 50px;"
+                                formControlName="AccountNumber" placeholder="Account Number" class="form-control"
+                                id="phoneNo" />
+                        </div>
+
+                        <div class=" col-md-6">
+                            <label class="control-label required" style="font-size: 90%;">Re-Enter Account Number </label>
+
+                            <input type="number" style="border-radius: 10px;  height: 50px;"
+                                formControlName="rAccountNumber" placeholder="Re-Enter Account Number"
+                                class="form-control" id="phoneNo" />
+                        </div>
+
+                    </div>
+                </form>
+
+
+                <button class="btn" (click)="back()">Back</button>
+
+                <button class="btn" (click)="next(formGroup.value)">Next<i class="fas fa-arrow-right"
+                        style="text-align: right;"></i></button>
+
+            </div>
+
+        </div>
+    </div>
+</div>

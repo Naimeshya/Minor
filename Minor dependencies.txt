@@ -1,0 +1,26 @@
+
+pip install django==3.2.10
+pip install django-cors-headers
+pip3 install djangorestframework
+python3 -m pip install tweepy
+python -m pip install textblob
+pip3 install ftfy
+pip install -U scikit-learn scipy matplotlib
+pip install keras
+pip3 install tensorflow
+pip install -U gensim
+
+
+
+
+
+Success1*
+
+
+
+
+
+MVSLCT-821
+
+
+

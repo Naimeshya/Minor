@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+
+.create {
+  background-color: #e9f6ff;
+  border-radius: 27px;
+}
+.h4 {
+  font-size: 1.5rem;
+  margin-left: 128px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+input[type="file"] {
+  display: none;
+}
+i[class="fa fa-camera"] {
+  font-size: 25px;
+  margin-top: 15px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.call1 {
+  background-color: #e9f6ff;
+  border-radius: 27px;
+}
+
+.file-field.medium .file-path-wrapper {
+  height: 3rem;
+}
+.file-field.medium .file-path-wrapper .file-path {
+  height: 2.8rem;
+}
+
+.file-field.big-2 .file-path-wrapper {
+  height: 3.7rem;
+}
+.file-field.big-2 .file-path-wrapper .file-path {
+  height: 3.5rem;
+}
+.btn {
+  border-radius: 16px;
+  border: none;
+  height: 50px;
+  width: 170px;
+  background-color: #69a5ff;
+  color: white;
+  font-size: 16px;
+  margin-left: 28px;
+  font-weight: 500;
+}
+.btnn {
+  border-radius: 16px;
+  border: none;
+  height: 50px;
+  width: 170px;
+  background-color: #69a5ff;
+  color: white;
+  font-size: 16px;
+  margin-left: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 220px;
+}
+label {
+  color: black;
+  font-size: 100%;
+ 
+  font-weight: 500;
+}
+
+form label.required:after {
+  color: red;
+  content: " *";
+  size: 15px;
+}
+form label.required:after {
+  color: red;
+  content: " *";
+  size: 15px;
+}

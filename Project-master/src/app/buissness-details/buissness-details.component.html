@@ -1,0 +1,172 @@
+<header class="header-nav header-white fixed-header" style="left:0;right:0">
+    <div class="fixed-header-bar">
+      <div class="">
+        <div class="navbar navbar-default navbar-expand-lg main-navbar">
+          <div class="navbar-brand">
+            <a href="index.html" title="hear Me Read" class="logo">
+              <img src="assets/img/Logo/twitter-5.svg" class="image" alt="hear Me Read" title="" style="height: 77px;">
+              <!-- <img src="assets/Images/Logo.png" class="image" alt="Bhaarat Emarket" title=""> -->
+  
+            </a>
+          </div>
+        
+        </div>
+      </div>
+    </div> 
+  </header>
+  
+  
+  
+  
+  <section id="home" class="Firstdiv"
+    style="left:0;right:0;margin-top: 82px; background: rgba(236, 240, 243, 0.5); backdrop-filter: blur(10px);">
+  
+  
+    <div style="padding: 13px  16%;">
+      <!-- start tab content -->
+  
+      <div class="row" >
+        <div class="col-12 homeheader">
+          <h1 style="margin-top: 6%;">Result</h1>
+        </div>
+  
+      </div>
+     
+   
+      
+      <div class="row" style="padding: 50px;">
+        <div class="col-12">
+            <div class="card" style="width: 100%;">
+              <div class="card-body">
+                <h5 class="card-title">Positive Tweets</h5>
+                <p class="card-text" *ngFor="let positive of user[0]">{{positive[0]}} <br> <br> </p>
+               
+              </div>
+              </div>
+        </div>
+
+      </div>
+      <div class="row" style="padding: 50px;">
+        <div class="col-12" >
+            <div class="card" style="width: 100%;">
+              <div class="card-body">
+                <h5 class="card-title">Negative Tweets</h5>
+                <p class="card-text" *ngFor="let Negative of user[1]">{{Negative[0]}} <br>  <br></p>
+               
+              </div>
+              </div>
+        </div>
+
+      </div>
+     
+      <div class="row" style="padding: 50px;">
+        <div class="col-12">
+            <div class="card" style="width: 100%;">
+              <div class="card-body">
+                <h5 class="card-title">Neutral Tweets</h5>
+                <p class="card-text" *ngFor="let neutral of user[2]">{{neutral[0]}} <br> <br> </p>
+               
+              </div>
+              </div>
+        </div>
+
+      </div>
+      <div class="row" style="padding: 50px;">
+        <div class="col-12">
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">Depressed Tweets</h5>
+                  <p class="card-text" *ngFor="let Depressed of user[3]">{{Depressed[0]}} <br> <br></p>
+                 
+                </div>
+              </div>
+        </div>
+
+      </div>
+    </div>
+  
+  
+  
+  </section>
+  
+
+
+ <section id="home" class="Firstdiv"
+    style="left:0;right:0;margin-top: 82px; background: rgba(236, 240, 243, 0.5); backdrop-filter: blur(10px);">
+  
+  
+    <div style="padding: 13px  16%;">
+      <!-- start tab content -->
+  
+      <div class="row" >
+        <div class="col-12 homeheader">
+          <h1 style="margin-top: 6%;">Graphical Representation</h1>
+        </div>
+  
+      </div>
+      <div class="row">
+        <div id="chartdiv"></div>
+      </div>
+
+    </div>
+  
+  
+  
+  </section>
+
+
+  
+  
+  
+  
+ 
+  <footer class="dark-bg footer" style="left:0;right:0">
+    <div class="row vertical-divider" style="padding: 33px;">
+      <div class="col-md-4" style="padding-left: 10%;">
+  
+        <div class="">
+          <img src="assets/img/Logo/twitter-5.svg"  style=" height: 57px;" title="" alt="">
+        </div>
+        <p style="color:white">Follow us</p>
+        <div class="row">
+          <a href="#"> </a>
+          <a href="#"> </a>
+          <a href="#"> </a>
+  
+        </div>
+  
+      </div>
+      <div class="col-md-4" style="padding-left: 10%;">
+  
+        <div class="">
+          <h4>For You</h4>
+        </div>
+        <p style="color:white">Plan</p>
+        <p style="color:white">About us</p>
+  
+  
+      </div>
+      <div class="col-md-4" style="padding-left: 10%;">
+  
+        <div class="">
+          <h4>Customer Support</h4>
+        </div>
+        <!-- <i class="fa fa-phone" style="color: #FF5E59;" aria-hidden="true"></i>
+        <i class="fas fa-envelope" style="color: #FF5E59;"></i>  -->
+        <p style="color:white"> 1234567890</p>
+        <p style="color:white"> support@hello.com</p>
+  
+  
+      </div>
+  
+  
+  
+  
+  
+  
+  
+    </div>
+  
+  
+  </footer>
+  

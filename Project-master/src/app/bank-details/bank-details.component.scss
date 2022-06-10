@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+.call1 {
+  background-color: #e9f6ff;
+  border-radius: 27px;
+}
+.create {
+  background-color: #e9f6ff;
+  border-radius: 27px;
+}
+.h4 {
+  font-size: 1.5rem;
+  margin-left: 128px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  border-radius: 50px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 50px;
+}
+
+.digit-group {
+  input {
+    width: 35px;
+    height: 45px;
+    background-color: white;
+    border: red;
+    border-radius: 25%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    color: black;
+    margin: 20px 5px 20px 20px;
+  }
+
+  .splitter {
+    padding: 0 5px;
+    color: white;
+    font-size: 24px;
+    border-radius: 40px;
+  }
+}
+.btn {
+  border-radius: 16px;
+  border: none;
+  height: 50px;
+  width: 170px;
+  background-color: #69a5ff;
+  color: white;
+  font-size: 16px;
+  margin-left: 28px;
+  margin-top: 270px;
+  font-weight: 500;
+}
+.btnn {
+  border-radius: 16px;
+  border: none;
+  height: 50px;
+  width: 170px;
+  background-color: #69a5ff;
+  color: white;
+  font-size: 16px;
+  margin-left: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 270px;
+}
+
+label {
+  color: black;
+  font-size: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+form label.required:after {
+  color: red;
+  content: " *";
+  size: 15px;
+}
+form label.required:after {
+  color: red;
+  content: " *";
+  size: 15px;
+}

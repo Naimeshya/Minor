@@ -1,0 +1,93 @@
+<div class="call1">
+    <div class="create">
+        <div class="row" id="tab3_sec1">
+            <div class="col-md-3">
+                <img src="assets/Images/personalDetails.png" title="" alt="Cashless treatment in healthcare Industry">
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8 mx auto">
+                <h3 style="margin-left: 28px;
+                margin-top: 50px; font-weight:700">Personal Details</h3>
+                <br>
+                <br>
+                <form [formGroup]="formGroup">
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class=" col-md-5 mx-auto">
+                            <label class="control-label required " style="font-size: 100%;">Full Name</label>
+
+                            <input type="text" style="border-radius: 10px;  height: 40px;" formControlName="FirstName"
+                                placeholder="Full Name" class="form-control" id="phoneNo" />
+                        </div>
+                        <div class=" col-md-4 mx-auto">
+                       <div class="form-group">
+                                  <input type="file"accept="image/*" id="file"  name="filename"
+                                    (change)="UploadInvoiceDoc($event.target.files)">
+
+                                <label class="control-label " style="font-size: 100%; margin-top: 10px;"for="file">
+              <i   class="fa fa-camera" aria-hidden="true"></i>
+                 Upload Photo</label>
+          </div>
+                        </div>
+                        <div class=" col-md-3 mx-auto">
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class="col-md-5 mx-auto">
+                            <label class="control-label required" style="font-size: 100%;">Email</label>
+
+                            <input type="email" style="border-radius: 10px;  height: 40px;" formControlName="email"
+                                placeholder="Email Address" class="form-control" required />
+
+                        </div>
+                        <div class="col-md-4 mx-auto">
+                            <br>
+                            <!--<button class="btn" >Send OTP<i  class="fas fa-arrow-right" ></i></button>
+                          -->
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                    <br>
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class="form-group col-md-4">
+                            <label class="control-label required" for="inputCity" style="font-size: 100%;">ZIP Code</label>
+                            <input type="text" formControlName="zipcode" style="border-radius: 10px;  height: 40px;"
+                                class="form-control" placeholder="ZIP Code" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label class="control-label required" for="inputState" style="font-size: 100%;">State</label>
+                            <input type="text" formControlName="state" style="border-radius: 10px;  height: 40px;"
+                                class="form-control" placeholder="State" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label  class="control-label required" style="font-size: 100%;">city</label>
+                            <input type="text" formControlName="city"  style="border-radius: 10px;  height: 40px;"
+                            class="form-control" placeholder="city" id="inputCity">
+                   
+                        </div>
+                    </div>
+                    <br>
+                    <div class=" col-md-12 row topBottomMargin">
+                        <div class="col-md-12">
+                            <label class="control-label required" style="font-size: 100%;">Permanent Address</label>
+                            <textarea type="text" formControlName="address" style="border-radius: 10px;  height: 40px;"
+                                class="form-control"></textarea>
+
+                        </div>
+                    </div>
+                </form>
+
+                <br>
+
+                <button class="btn" (click)="back()">Back</button>
+
+                <button class="btn" (click)="next (formGroup.value)">Next<i class="fas fa-arrow-right"
+                        style="text-align: right;"></i></button>
+
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.noPadMargin {
+  padding: 0%;
+  margin: 0%;
+}
+
+.textBar {
+  font-family: Avalon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  color: #212730;
+}
+.ohBhaiyaLogoContainer {
+  padding-left: 9%;
+}
+
+@media (max-width: 640px) {
+  .ohBhaiyaLogoContainer {
+    margin-top: 3%;
+    margin-left: 0%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2%;
+  }
+}
